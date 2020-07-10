@@ -1,0 +1,41 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css');
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --color-procipal: #fa573a; 
+    --color-secundario: #21242e;
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteSecundario:'handlee' , cursive; 
+    --anchoMaximo: 1100px; 
+    }
+    
+    body {
+    background-color: var(--color-secundario);
+        font-size: 1em;
+    }
+
+    /*inicio del main*/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    font-family: var(--fuenteSecundario);
+    color: white;
+    align-text: center;
+
+}
+.container {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    align-items: center;
+
+}
