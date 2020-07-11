@@ -17,6 +17,7 @@
     body {
     background-color: var(--color-secundario);
         font-size: 1em;
+        margin: 3em;
     }
 
     /*inicio del main*/
@@ -24,18 +25,133 @@
 img {
     width: 100%;
     height: auto;
+    margin: 2em 0 2em 0;
 }
 
-.header{
+header section { 
     font-family: var(--fuenteSecundario);
     color: white;
-    align-text: center;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
 
 }
-.container {
+ header section h2 span{
+
+    color: var(--color-procipal);
+
+}
+header section .underline {
+        position: relative;
+        width: 5em;
+        margin: 0 auto;
+        color: var(--color-procipal);
+        font-weight: bold;
+        text-align: center;
+}
+ section .underline hr {
+    border-color: var(--color-procipal);
+    position: absolute;
+    width: 100%;
+    top: -0.063em;
+ }
+
+ main{
+    margin-bottom: 90px;
+    padding: 2em 0;
+
+ }
+ main ul li {
+     text-decoration:none;
+     color: white;
+        display:block;
+        text-align: left center;
+        padding: 1em;
+        transition: 0.5s;
+
+ }
+ .activo {
+    background-color: var(--color-procipal);
     color: white;
+    padding: 0.5em;
     text-decoration: none;
-    font-size: 100%;
-    align-items: center;
+ }
 
-}
+ .boton:hover {
+    color: var(--color-procipal);
+ }
+ main nav h1 {
+color: white;
+font-family: var(--fuentePrincipal);
+font-size: 1em;
+font-weight: bold;
+
+ }
+ main nav .underline {
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+    width: 3.5em;
+    color: var(--color-procipal);
+    margin-bottom: 0.5em;
+    text-align: left center;
+ }
+
+ main div p {
+     color: white;
+     font-size: var(--fuentePrincipal);
+ }
+
+ main .images{
+     margin: 0 1em;
+ }
+
+ main article h2 {
+     color: white;
+     font-family: var(--fuentePrincipal);
+     font-weight: 0.8em;
+     margin: 0 1em;
+     font-weight: bold;
+
+ }
+ main article .precio{
+     font-weight: normal;
+     position: relative;
+     left: 345px;
+     bottom: 18px;
+     color: var(--color-procipal);
+ }
+ article h3 {
+     color: white;
+     margin: 1em;
+     position: relative;
+     bottom: 20px;
+     font-size: var(--fuentePrincipal);
+
+ }
+ main .boton{
+color: var(--color-procipal);
+text-decoration: none;
+margin: 1em;
+font-size: var(--fuentePrincipal);
+ }
+
+ main article .puntero a {
+     background-color: var(--color-procipal);
+     color: white;
+     width: 2em;
+     height: 2em;
+     display: block;
+     position: relative;
+     left: 350px;
+     top: 50px;
+     border-radius: 10%;
+
+ }
+ 
+/*fin del main*/
+
+
+
+
+
