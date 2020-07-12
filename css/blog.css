@@ -1,0 +1,202 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css');
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --color-procipal: #fa573a; 
+    --color-secundario: #21242e;
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --fuenteSecundario:'handlee' , cursive; 
+    --anchoMaximo: 1100px; 
+    }
+
+    body{
+        font-family: var(--fuentePrincipal);
+        padding: 0.5em;
+        font-size: 1em;
+    }
+
+    img {
+        width: 21%;
+        height: auto;
+        padding: 0.5%;
+        display: inline-block;
+    }
+
+      main{
+        max-width: var(--anchoMaximo);
+        position: relative;
+        top:10em;
+        left:10em;
+    }
+
+    /*inicio del main*/
+
+    main nav #ourblogs {
+        font-family: var(--fuenteSecundario);
+        text-align: center;
+        font-size: 2em;
+    }
+
+    main #ourblogs span{
+        color: var(--color-procipal);
+    }
+
+   main .container .underline{
+    position: relative;
+    width: 5em;
+    margin: 0 auto;
+    color: var(--color-procipal);
+    font-weight: bold;
+    margin-bottom: 2em;
+    text-align: center;
+
+    }
+    main .underline hr{
+        border-color: var(--color-procipal);
+        position: absolute;
+        width: 100%;
+        top: -0.063em;
+    }
+
+section #images{
+    position: relative;
+    left: 14em;
+    padding: 1em 1em;
+
+}
+main .allposted h2{
+    font-size: 15px; 
+    font-weight: bold;
+    position: relative;
+    left: 20%;
+    padding: 1em;
+}
+
+main .posted1 {
+position: relative;
+left: 19px;
+bottom: 2px;
+}
+
+main .posted1 .enlace{
+    position: relative;
+    left: 238px;
+    text-decoration: none;
+    color: var(--color-procipal);
+}
+main .posted1 .readmore1{
+    text-decoration: none;
+    position: relative;
+    left: 238px;
+    color: var(--color-procipal);
+}
+
+main .posted1 p{
+    display: block;
+    width: 15%;
+    position: relative;
+    left: 220px;
+    margin: 1em;
+
+}
+
+main .posted2 {
+    position: relative;
+    left:258px;
+    bottom: 220px;
+    }
+    
+    main .posted2 .enlace{
+        position: relative;
+        left: 238px;
+        text-decoration: none;
+        color: var(--color-procipal);
+    }
+    
+    
+    main .posted2 p{
+        display: block;
+        width: 15%;
+        position: relative;
+        left: 220px;
+        margin: 1em;
+    
+    }
+
+    main .posted2 .readmore2{
+    text-decoration: none;
+    position: relative;
+    left: 238px;
+    color: var(--color-procipal);
+}
+
+main .posted3 {
+    position: relative;
+    left:489px;
+    bottom: 440px;
+    }
+    
+    main .posted3 .enlace{
+        position: relative;
+        left: 238px;
+        text-decoration: none;
+        color: var(--color-procipal);
+    }
+    
+    
+    main .posted3 p{
+        display: block;
+        width: 15%;
+        position: relative;
+        left: 220px;
+        margin: 1em;
+    
+    }
+
+    main .posted3 .readmore3{
+    text-decoration: none;
+    position: relative;
+    left: 236px;
+    color: var(--color-procipal);
+}
+
+main .boton1{
+    width: 5%;
+    height: auto;
+    background-color: var(--color-procipal);
+    color: white;
+    align-content: center;
+    position: relative;
+    bottom: 800px;
+    left: 245px;
+    opacity: 0.8;
+}
+
+
+main .boton2{
+    width: 5%;
+    height: auto;
+    background-color: var(--color-procipal);
+    color: white;
+    align-content: center;
+    position: relative;
+    bottom: 890px;
+    left: 474px;
+    opacity: 0.8;
+}
+    
+main .boton3{
+    width: 5%;
+    height: auto;
+    background-color: var(--color-procipal);
+    color: white;
+    align-content: center;
+    position: relative;
+    bottom: 950px;
+    left: 702px;
+    opacity: 0.8;
+}
