@@ -99,7 +99,8 @@ font-weight: bold;
 
  main div p {
      color: white;
-     font-size: var(--fuentePrincipal);
+     font-weight: var(--fuentePrincipal);
+     
  }
 
  main .images{
@@ -117,8 +118,8 @@ font-weight: bold;
  main article .precio{
      font-weight: normal;
      position: relative;
-     left: 345px;
-     bottom: 18px;
+     left: 260px;
+     bottom: 35px;
      color: var(--color-procipal);
  }
  article h3 {
@@ -143,13 +144,63 @@ font-size: var(--fuentePrincipal);
      height: 2em;
      display: block;
      position: relative;
-     left: 350px;
-     top: 50px;
+     left: 250px;
+     top: 20px;
      border-radius: 10%;
 
  }
  
 /*fin del main*/
+
+/*inicio del responsive*/
+
+
+@media(min-width: 62.750em){
+    body {
+        background-color: var(--color-secundario);
+            font-size: 1em;
+            margin: 3em;
+        
+            
+    }
+    main ul li {
+        text-decoration:none;
+        color: white;
+        font-size: 15px;
+           display:inline block;
+           text-align: center left;
+           padding: 1em;
+           transition: 0.5s;
+           position: relative;
+           left: 200px;
+           bottom: 30px;
+    }
+    img {
+        width: 15%;
+        height: auto;
+        display: inline;
+        position: relative;
+        bottom: 250px;
+        margin-left:40%;
+        padding-bottom: 100px;
+    }
+    main nav h1 {
+        color: white;
+        font-family: var(--fuentePrincipal);
+        font-size: 1em;
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+        left: 120px;
+    }        
+    main div p {
+        color: white;
+        display: block;
+        font-weight: var(--fuentePrincipal);
+        position: relative;
+        top: 120px;
+}
+}
 
 
 
