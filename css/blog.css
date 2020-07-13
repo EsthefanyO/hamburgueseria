@@ -107,7 +107,7 @@ main .posted1 p{
 main .posted2 {
     position: relative;
     left:258px;
-    bottom: 220px;
+    bottom: 225px;
     }
     
     main .posted2 .enlace{
@@ -128,6 +128,7 @@ main .posted2 {
     }
 
     main .posted2 .readmore2{
+        display: block;
     text-decoration: none;
     position: relative;
     left: 238px;
@@ -136,8 +137,8 @@ main .posted2 {
 
 main .posted3 {
     position: relative;
-    left:489px;
-    bottom: 440px;
+    left:485px;
+    bottom: 448px;
     }
     
     main .posted3 .enlace{
@@ -165,38 +166,38 @@ main .posted3 {
 }
 
 main .boton1{
-    width: 5%;
+    width: 45px;
     height: auto;
     background-color: var(--color-procipal);
     color: white;
-    align-content: center;
+    text-align: center;
     position: relative;
-    bottom: 800px;
+    bottom: 833px;
     left: 245px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 
 main .boton2{
-    width: 5%;
+    width: 45px;
     height: auto;
     background-color: var(--color-procipal);
     color: white;
-    align-content: center;
+    text-align: center;
     position: relative;
-    bottom: 890px;
+    bottom: 865px;
     left: 474px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
     
 main .boton3{
-    width: 5%;
+    width: 45px;
     height: auto;
     background-color: var(--color-procipal);
     color: white;
-    align-content: center;
+    text-align: center;
     position: relative;
-    bottom: 950px;
+    bottom: 897px;
     left: 702px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
