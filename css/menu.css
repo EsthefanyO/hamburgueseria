@@ -148,7 +148,60 @@ font-size: var(--fuentePrincipal);
      border-radius: 10%;
 
  }
- 
+ @media(min-width: 800px ) {
+    main{
+        margin: 0px;
+        padding: 1em 0;
+    }
+        main div p {
+            color: white;
+            font-weight: var(--fuentePrincipal);
+            display: block;
+        }  
+
+    
+ main .images{
+     display: block;
+    margin: 0 1em;
+    position: relative;
+    left: 40%;
+    align-content: right;
+    width: 20%;
+   margin: 0px;
+ }
+   main article h2 {
+    color: white;
+    font-family: var(--fuentePrincipal);
+    font-weight: 0.8em;
+    margin: 0 1em;
+    font-weight: bold;
+    position: relative;
+    left: 70%;
+    top:30%;
+
+}
+main article .precio{
+    font-weight: normal;
+    position: relative;
+    left: 80%;
+    bottom: 17px;
+    color: var(--color-procipal);
+}
+article h3 {
+    display: inline-block;
+    color: white;
+    margin: 1em;
+    position: relative;
+    top: 80%px;
+    font-size: var(--fuentePrincipal);
+
+
+ }
+
+
+
+}
+    
 /*fin del main*/
 
 /*inicio del responsive*/
